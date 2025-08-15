@@ -66,7 +66,7 @@ const porta = 3000
 const server = http.createServer((req, res) => {
     
     //Mostra a rota solicitada
-    url = req.url
+    url = req.urlZ
     console.log('url: ',url);
 
     //Aqui vão as Rotas
